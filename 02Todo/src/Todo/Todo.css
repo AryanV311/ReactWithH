@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todo-conatiner{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #515151;
+}
+
+.todo-conatiner header{
+    margin-top: 50px;
+}
+
+.todo-conatiner header h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.form form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    outline: none;
+}
+
+.form .todo-input{
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px 0px 0px 15px;
+    border-right: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form .add-btn{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px 15px 15px 0px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(24, 169, 236);
+}
+
+.myUnOrderList{
+    margin-top: 30px;
+    /* display: flex;  
+    align-items: center; */
+    width: 400px;
+    /* border-radius: 20px; */
+    /* background-color: #fff; */
+}
+
+.myUnOrderList .task-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+/* .task-list span{
+ 
+} */
+
+.task-list button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task-list .check-btn{
+    background-color: green;
+    /* outline: none; */
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius:50%;
+    text-align: center;
+    color: wheat;
+    margin-left: 200px;
+}
+
+
+.task-list .delete-btn{
+    position: relative;
+    background-color: red;
+    /* outline: none; */
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius:50%;
+    text-align: center;
+    color: wheat;
+}
+
+.clear-btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(243, 46, 46);
+    color: wheat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.checkList{
+    text-decoration: line-through;
+}
+
+.notCheckedList{
+    text-decoration: none;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "urbanist";
+}
+
+p,li,a,button{
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+    list-style: none;
+}
+
+button{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 4px 8px;
+    /* align-items: center; */
+    color: wheat;
+    text-align: center;
+    background-color: #000;
+    cursor: pointer;
+}
+
+button svg {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    &:hover{
+        text-decoration: underline;
+        color: #109df5;
+    }
+}
+
+
+header{
+    height: 10rem;
+    background-color: #d4e6f1;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    width: 100%;
+}
+
+.container{
+    max-width: 132rem;
+    margin: auto;
+    height: 10rem;
+}
+
+.grid{
+    display: grid;
+}
+
+.navbar-grid{
+    grid-template-columns: .5fr 1fr;
+    align-items: center;
+    height: 10rem;
+    padding:0 3.2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+.ham-menu{
+    display: none;
+}
+
+@media screen and (max-width:998px){
+
+    .menu-web{
+        display:none;
+    }
+
+    .ham-menu{
+        display: inline-block;
+        /* justify-content: flex-end; */
+        text-align: end;
+    }
+
+    .menu-mobile{
+        position: absolute;
+        top: 10rem;
+        width: 100%;
+        left: 0;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 14px 28px;
+    }
+    
+    .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & li:first-child{
+            margin-top: 1.2rem;
+        }
+
+        & li:last-child{
+            margin-bottom: 1.2rem;
+        }
+    }
+}
