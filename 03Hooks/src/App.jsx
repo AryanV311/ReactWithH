@@ -1,7 +1,7 @@
 
 import './App.css'
 import { UseRef } from './UseRef/Useref'
-import { UseReff } from './UseRef/UseReff'
+// import { UseReff } from './UseRef/UseReff'
 
 
 // import { UseMemo } from './ReactMemo/UseMemo'
@@ -18,9 +18,9 @@ function App() {
       {/* <ReducerComp /> */}
       {/* <ReactMemo /> */}
       {/* <UseMemo /> */}
-      {/* <UseRef /> */}
+      <UseRef />
       {/* <UseState /> */}
-      <UseReff />
+      {/* <UseReff /> */}
     </>
   )
 }
