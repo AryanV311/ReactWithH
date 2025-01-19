@@ -1,6 +1,7 @@
 
 import './App.css'
-import { UseRef } from './UseRef/Useref'
+import { ImageSlider } from './Components/Imageslider/imageSlider'
+// import { UseRef } from './UseRef/Useref'
 // import { UseReff } from './UseRef/UseReff'
 
 
@@ -18,9 +19,10 @@ function App() {
       {/* <ReducerComp /> */}
       {/* <ReactMemo /> */}
       {/* <UseMemo /> */}
-      <UseRef />
+      {/* <UseRef /> */}
       {/* <UseState /> */}
       {/* <UseReff /> */}
+      <ImageSlider />
     </>
   )
 }
