@@ -27,7 +27,7 @@ export const ImageSlider = () => {
 
   return (
 
-    /* this is also the Right metho, but we see in the network im getting img call again and again */ 
+    /* this is also the Right method, but we see in the network im getting img call again and again */ 
 
     // <div className="main">
     //     <h1>Image Slider</h1>
