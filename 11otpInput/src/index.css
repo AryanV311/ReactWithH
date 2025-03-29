@@ -1,0 +1,16 @@
+body{
+  background-color: #313131;
+  color: #ffff;
+}
+
+.App{
+  text-align: center;
+}
+
+.input-box{
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin: 2px;
+}
