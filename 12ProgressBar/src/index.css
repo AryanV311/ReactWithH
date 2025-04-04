@@ -1,0 +1,20 @@
+body{
+  background-color:#313131;
+}
+.App{
+  text-align: center;
+  color: white;
+}
+
+.outer{
+  border: 1px solid white;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.inner{
+  background-color: #1e8cb5;
+  text-align: right;
+  transition: 0.3s ease-in; 
+}
