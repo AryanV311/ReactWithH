@@ -1,0 +1,106 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.skill-title{
+    position: relative;
+}
+
+.skill-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.skill-title img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.skill-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.skill-format .icon{
+    font-size: 55px;
+}
+
+.skill-format .title{
+    font-size: 24px;
+    font-weight:600;
+}
+
+.html-skill:hover{
+    background-image: linear-gradient(-20deg, #ff0844 0%, #ffb199 100%);
+    border: 2px solid red;
+    color: red;  
+}
+
+.js-skill:hover{
+    border: 2px solid yellow;
+    /* color: yellow; */
+    background: #FFE000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(-20deg, #c1c712, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(-20deg, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.css-skill:hover{
+    color: blue;
+    border: 2px solid blue;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+
+.react-skill:hover{
+    color: blue;
+    border: 2px solid blue;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+
+.node-skill:hover{
+    color: green;
+    background-image: linear-gradient(-20deg, #0ba360 0%, #3cba92 100%);
+}
+
+.mongo-skill:hover{
+    color: darkgreen;
+    background-image: linear-gradient(-60deg, #16a085 0%, #41eb0d 100%);
+}
+
+.skill-format:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.rn-skill:hover{
+    color: darkblue;
+    background-image: linear-gradient(-60deg, #4481eb 0%, #1318a5 100%);
+}
+
+.tailwind-skill:hover{
+    color: rgb(21, 189, 245);
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}

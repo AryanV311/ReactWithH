@@ -1,29 +1,26 @@
-
-import { Route, Routes } from 'react-router-dom'
-import './App.css'
-import './index.css'
-
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
-import { Home } from './pages/Home';
-
-import {Contact} from './pages/Contact';
-import { About } from './pages/About';
-
-
-function App() {
-
+import React from 'react'
+import { Navbar } from './components/Navbar/Navbar'
+import { Hero } from './components/Header/Hero';
+import { About } from './components/About/About';
+import { Skill } from './components/Skills/Skill';
+import { Projects } from './components/Projects/Projects';
+import { Contact } from './components/contact.jsx/Contact';
+import { Footer } from './components/Footer/Footer';
+import { ToastContainer } from 'react-toastify';
+ const App = () => {
   return (
-  <div>
-    <Navbar />
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={Contact} />
-    </Routes>
-    {/* <Footer /> */}
-  </div>
+    <div>
+      <ToastContainer />
+      <Navbar />
+      <Hero />
+      <About />
+      <Skill />
+      <Projects />
+      <Contact />
+      <Footer />
+      
+    </div>
   )
 }
 
-export default App
+export default App;
