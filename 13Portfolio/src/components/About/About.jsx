@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/about_profile.svg";
+import profile_img from "../../assets/about_profile.png";
 
 export const About = () => {
   return (
@@ -31,7 +31,7 @@ export const About = () => {
           </div>
           <div className="about-details">
             <div className="about-info">
-                <h2>Info</h2>
+              <h2>Info</h2>
               <p>Name: Aryan Vishwakarma</p>
               <p>Age: 21</p>
               <p>From: India</p>

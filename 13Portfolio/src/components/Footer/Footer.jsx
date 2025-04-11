@@ -1,5 +1,5 @@
 import React from 'react';
-import footer_logo from "../../assets/footer_logo.svg";
+import footer_logo from "../../assets/logo2.png";
 import user_icon from "../../assets/user_icon.svg";
 import "./Footer.css"
 
@@ -21,7 +21,7 @@ export const Footer = () => {
         </div>
         <hr />
         <div className='footer-bottom'>
-            <p className='footer-bottom-left'>© 2023 Alex Bennett. All rights reserved.</p>
+            <p className='footer-bottom-left'>© 2025 Aryan Tech. All rights reserved.</p>
             <div className='footer-bottom-right'>
             <p>Term of Services</p>
             <p>Privacy Policy</p>

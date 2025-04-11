@@ -87,3 +87,68 @@
     border-bottom: 1px dashed white;
     margin-bottom: 10px;
 }
+
+@media(max-width:768px){
+    .about{
+        width: 190%;
+        height: 1000px;
+        gap: 80px;
+        margin: 50px 50px;
+        align-items: start;
+    }
+
+    .about-title h1{
+        font-size: 60px;
+        padding: 0;
+    }
+
+    .about-title img{
+        width: 130px;
+        right: -15px;
+    }
+
+    .about-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-left{
+        display: none;
+    }
+
+    .about-para{
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .about-details{
+        display: flex;
+        margin-top: 20px;
+        gap: 50px;
+    }
+
+    .about-info{
+    font-size: 22px;
+    width: 50%;
+    line-height: 26px;
+    }
+
+    .about-info h2{
+        margin-bottom: 20px;
+    }
+
+    .about-education h2{
+        margin-bottom: 20px;
+    }
+
+    .about-education{
+        font-size: 22px;
+        width: 50%;
+        line-height: 32px;
+    }
+
+    .about-education h3{
+        font-size: 22px;   
+    }
+
+}

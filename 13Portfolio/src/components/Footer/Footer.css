@@ -68,3 +68,47 @@
     gap: 30px;
     margin-bottom: 50px;
 }
+
+@media(max-width:768px){
+    .footer{
+        width: 200%;
+        margin: 50px 50px;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-top-right{
+        gap: 20px;
+    }
+
+    .footer hr{
+        width: 99%;
+    }
+
+    .footer-email-input{
+        display: flex;
+        padding: 20px 25px;
+        gap: 25px;
+        background: #32323c;
+        border-radius: 50px;
+        padding-right: 70px;
+    }
+
+    .footer-subscribe{
+        font-size: 20px;
+        padding: 22px 48px;
+        border-radius: 50px;
+        background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 100%);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+}

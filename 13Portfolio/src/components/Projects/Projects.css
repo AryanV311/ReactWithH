@@ -62,3 +62,41 @@
     gap: 30px;
     transition: 0.6s;
 }
+
+@media(max-width:768px){
+    .project{
+        width: 200%;
+        align-items: start;
+        margin: 70px 35px;
+        gap: 70px;
+    }
+
+    .project-title h1{
+        font-size: 55px;
+        font-weight: 600;
+        padding-left: 7px;
+    }
+
+    .project-title img{
+        width: 130px;
+        right: 0px;
+        padding-right: 10px;
+    }
+
+    .project-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .project-container img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-showmore{
+        padding: 20px 40px;
+        font-size: 18px;
+        margin: 40px auto;
+    }
+}

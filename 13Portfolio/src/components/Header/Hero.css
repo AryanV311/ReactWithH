@@ -14,19 +14,73 @@
     width: 75%;
     font-size: 80px;
     font-weight: 600;
+    margin-top: -50px;
 }
 
-.hero h1 span{
+.hero h2{
+    
+    font-size: 80px;
+    display: inline-block;
     background: linear-gradient(270deg, #DF8909 10%, #B415FF 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: 20ch;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(20) infinite alternate-reverse;
 }
+
+@keyframes typing{
+    from{
+        width: 0ch;
+    }
+}
+
+
+
 
 .hero p {
     text-align: center;
     font-size: 24px;
     width: 55%;
     line-height: 30px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 2px solid white; */
+}
+
+.profile-picture{
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    border: 20px solid #333;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.profile-picture img{
+    height: 130%;
+    width: 130%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.profile-picture img:hover {
+  transform: scale(1.2);
 }
 
 .hero-action{
@@ -52,6 +106,54 @@
     cursor: pointer;
 }
 
+.hero-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.github{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+ .github .icon{
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.github:hover{
+    border-color: #B415FF;
+    cursor: pointer;
+}
+
+.linkedin{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.linkedin .icon{
+    font-size: 40px;
+    border-radius: 50%;
+    color: #0077B5;
+}
+
+.linkedin:hover{
+    border-color: rgb(6, 115, 210);
+}
+
 .hero-connect:hover{
     border: 2px solid white;
 }
@@ -59,3 +161,66 @@
 .hero-resume:hover{
     border-color: #B415FF;
 }
+
+@media(max-width:768px){
+    .hero{
+        width: 200%; 
+        height: 1180px;
+        margin: 50px 20px;
+        gap: 60px;
+    }
+    .hero h1{
+        width: 90%;
+        font-size: 45px;
+    }
+
+    .hero p{
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 10px 0px;
+    }
+    .hero h2{
+        font-size: 50px;
+    }
+
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+
+    .hero-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .hero-resume{
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+
+    .image-container{
+        margin-top: 80px;
+        width: 350px;
+        height: 350px;
+    }
+    .profile-picture{
+        width: 350px;
+        height: 350px;
+    }
+    .profile-picture img{
+        height: 120%;
+        width: 120%;
+        margin-bottom: 80px;
+        margin-left: 20px;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+}
+
+/* @media (max-width:600px){
+    .hero{
+        width: 200%;        
+    }
+} */
