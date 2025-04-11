@@ -1,0 +1,27 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tabs-container{
+  display: flex;
+}
+
+.tabs{
+  padding: 8px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.active-tab{
+  border: 1px solid black;
+  height: 400px;
+  width: 700px;
+}
+
+.box{
+  margin: 10px;
+}
+
+.box label, input{
+  font-size: 20px;
+}
