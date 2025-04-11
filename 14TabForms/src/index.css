@@ -25,3 +25,7 @@ body{
 .box label, input{
   font-size: 20px;
 }
+
+.btn{
+  display: block;
+}
