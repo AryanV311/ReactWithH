@@ -11,15 +11,14 @@
 
 .hero h1{
     text-align: center;
-    width: 75%;
-    font-size: 80px;
+    width: 80%;
+    font-size: 75px;
     font-weight: 600;
     margin-top: -50px;
 }
 
 .hero h2{
-    
-    font-size: 80px;
+    font-size: 75px;
     display: inline-block;
     background: linear-gradient(270deg, #DF8909 10%, #B415FF 100%);
     background-clip: text;
@@ -36,12 +35,9 @@
     }
 }
 
-
-
-
 .hero p {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     width: 55%;
     line-height: 30px;
 }
@@ -87,7 +83,7 @@
     display: flex;
     align-items: center;
     gap: 25px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     margin-bottom: 50px;
 }

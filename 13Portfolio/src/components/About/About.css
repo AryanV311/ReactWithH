@@ -11,9 +11,17 @@
     position: relative;
 }
 
+.about-left{
+    /* border: 1px solid white; */
+}
+
+.about-left img{
+    padding-top: 5px;
+}
+
 .about-title h1{
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 600;
 }
 
@@ -38,7 +46,7 @@
 .about-para{
     display: flex;
     flex-direction: column;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 500;
     gap: 15px;
 }
@@ -46,10 +54,11 @@
 .about-details{
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid; */
 }
 
 .about-info{
-    font-size: 22px;
+    font-size: 20px;
     width: 45%;
     margin-bottom: 20px;
 }
@@ -68,10 +77,10 @@
 }
 
 .about-education{
-    font-size: 22px;
+    font-size: 20px;
     width: 45%;
     margin-bottom: 20px;
-    line-height: 40px;
+    line-height: 37px;
 }
 
 .about-education h2{
