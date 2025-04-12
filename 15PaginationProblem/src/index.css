@@ -25,3 +25,21 @@
   height: 200px;
   width: 200px;
 }
+
+.pagination{
+  padding:4px;
+  margin: 5px;
+}
+
+.active{
+  background-color: #510276;
+  color: white;
+}
+
+.prev-page{
+  padding:7px;
+}
+
+.next-page{
+  padding: 7px;
+}
