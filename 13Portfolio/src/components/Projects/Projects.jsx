@@ -50,10 +50,6 @@ export const Projects = () => {
           />
         </div>
       )}
-      {/* <div className="project-showmore">
-        <p>Show More</p>
-        <img src={arrow_icon} alt="" />
-      </div> */}
     </div>
   );
 };
