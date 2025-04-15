@@ -6,7 +6,7 @@ import arrow_icon from "../../assets/arrow_icon.svg";
 
 export const Projects = () => {
 
-    const initialDisplayCount = 6;
+  const initialDisplayCount = 6;
   const [showAll, setShowAll] = useState(false);
 
   const handleToggle = () => {
