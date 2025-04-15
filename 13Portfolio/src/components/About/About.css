@@ -11,10 +11,6 @@
     position: relative;
 }
 
-.about-left{
-    /* border: 1px solid white; */
-}
-
 .about-left img{
     padding-top: 5px;
 }
@@ -54,7 +50,6 @@
 .about-details{
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid; */
 }
 
 .about-info{
