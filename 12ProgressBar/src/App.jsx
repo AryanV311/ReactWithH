@@ -4,7 +4,7 @@ import './App.css'
 
 const ProgressBar = ({progress}) => {
 
-  const [animatedPrgress, setAnimatedProgress] = useState(0);
+  const [animatedPr0gress, setAnimatedProgress] = useState(0);
 
   useEffect(() => {
     setTimeout(() => {
@@ -15,8 +15,8 @@ const ProgressBar = ({progress}) => {
   return (
     <div className='outer'>
       <div className='inner' style={{
-          transform:`translate(${animatedPrgress - 100}%)`, 
-        color:animatedPrgress < 5 ? 'black':'white'
+          transform:`translate(${animatedPr0gress - 100}%)`, 
+        color:animatedPr0gress < 5 ? 'black':'white'
       }
       }
       aria-valuemax={100}

@@ -135,8 +135,12 @@
         gap: 70px;
     }
 
+    .project-title{
+      margin: auto;
+    }
+
     .project-title h1{
-        font-size: 55px;
+        font-size: 58px;
         font-weight: 600;
         padding-left: 7px;
     }
@@ -159,8 +163,8 @@
     }
 
     .project-showmore{
-        padding: 20px 40px;
-        font-size: 18px;
+        padding: 25px 40px;
+        font-size: 22px;
         margin: 40px auto;
     }
 }

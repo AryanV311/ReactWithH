@@ -128,6 +128,10 @@
         gap: 100px;
     }
 
+    .contact-title{
+        margin: auto;
+    }
+
     .contact-title h1{
         font-size: 50px;
         padding: 0;
@@ -143,12 +147,21 @@
         flex-direction: column;
     }
 
-    .contact-left h1{
-        font-size: 54px;
+    .contact-left{
+        width: 100%;
+        /* border: 1px solid white; */
     }
 
-    .contact-left p{
-        font-size: 18px;
+    .contact-left h1{
+        font-size: 54px;
+        
+    }
+
+    .contact-left  p{
+       min-width: 90%;
+        font-size: 24px;
+        /* border: 1px solid wheat; */
+    
     }
 
     .contact-details{
@@ -164,11 +177,11 @@
     }
 
     .contact-right label{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .contact-right input{
-        width: 100%;
+        min-width: 90%;
         font-size: 20px;
     }
 
@@ -178,7 +191,7 @@
     }
 
     .contact-right .contact-submit{
-        font-size: 20px;
+        font-size: 24px;
         padding: 15px 40px;
     }
 }

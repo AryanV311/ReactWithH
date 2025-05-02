@@ -5,6 +5,8 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
+    /* border: 1px solid white; */
+    
 }
 
 .about-title{
@@ -96,19 +98,20 @@
     .about{
         width: 190%;
         height: 1000px;
-        gap: 80px;
-        margin: 50px 50px;
-        align-items: start;
+        gap: 70px;
+        margin: 0px 50px;
+        align-items: center;
     }
 
     .about-title h1{
         font-size: 60px;
-        padding: 0;
+        text-align: center;
+        /* border: 1px solid white; */
     }
 
     .about-title img{
         width: 130px;
-        right: -15px;
+        right: 10px;
     }
 
     .about-section{
@@ -120,9 +123,17 @@
         display: none;
     }
 
+    .about-right{
+        /* border: 1px solid white; */
+    }
+
     .about-para{
-        font-size: 20px;
+        /* border: 1px solid white; */
+        width: 100%;
+        font-size: 28px;
         line-height: 34px;
+        text-align: justify;
+        
     }
 
     .about-details{
@@ -132,23 +143,26 @@
     }
 
     .about-info{
-    font-size: 22px;
+    font-size: 24px;
     width: 50%;
     line-height: 26px;
     }
 
     .about-info h2{
         margin-bottom: 20px;
+        font-size: 32px;
+        /* border: 1px solid white; */
     }
 
     .about-education h2{
-        margin-bottom: 20px;
+        margin-bottom: 32px;
+        font-size: 28px;
     }
 
     .about-education{
-        font-size: 22px;
+        font-size: 24px;
         width: 50%;
-        line-height: 32px;
+        line-height: 33px;
     }
 
     .about-education h3{
