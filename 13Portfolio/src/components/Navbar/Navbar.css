@@ -5,6 +5,7 @@
     margin: 20px 170px;
     position: sticky;
     top: 0;
+    z-index: 1;
     background: #161513;
 }
 
