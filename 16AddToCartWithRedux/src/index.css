@@ -90,3 +90,34 @@ body{
   font-size: medium;
   cursor: pointer;
 }
+
+.home .main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main input{
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+.main .icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  background: #b2bbca;
+  font-size: 18px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+}
+
+.search-section{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
