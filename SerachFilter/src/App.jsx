@@ -2,15 +2,22 @@
 import { Route, Routes } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { Navbar } from './components/Navbar'
+import { useState } from 'react'
 
 function App() {
-  
+  const [globalSearch, setGlobalSearch] = useState("")
+  const [selected, setSelected] = useState({
+      material: [],
+      brand: [],
+      color: [],
+      size: [],
+    });
 
   return (
     <>
-    <Navbar />
+    <Navbar setGlobalSearch={setGlobalSearch} />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home selected={selected} globalSearch={globalSearch} setSelected={setSelected} />} />
       </Routes>
     </>
   )
