@@ -8,7 +8,7 @@ export const Hero = () => {
 
   const handleDowanloadResume = () => {
     const link = document.createElement('a')
-    link.href = "/Aryan-Resume.pdf"
+    link.href = "/Aryan_Resume-1.pdf"
     link.download = "Aryan-Resume.pdf"
     document.body.appendChild(link)
     link.click()
